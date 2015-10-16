@@ -1,0 +1,22 @@
+# Site settings
+title: Auto Pros Mobile Detailing
+
+tagline: "Premier Car, Auto Mobile Detailing & Wash in Tampa"
+
+description: > # Is your vehicle in need of a car wash?
+  Do you need some auto detailing done but you simply just don't have the time?
+  Auto Pros Mobile makes getting auto done easy.
+
+baseurl: "/autopros" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+email: info@autoprosmobile.com
+facebook: AutoProsMobile
+twitter: AutoProsDetail
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+paginate: 10
+paginate_path: "/news/page:num"

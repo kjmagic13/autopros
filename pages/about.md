@@ -1,0 +1,13 @@
+---
+layout: page
+title: About Us
+permalink: /about/
+---
+
+Auto Pros Mobile Detailing, Plant City, FL- We proudly provide high quality commercial, fleet, government and residential mobile detailing at offices and homes throughout Hillsborough, southern Polk and eastern Pasco counties. We serve all types of vehicles from cars, trucks, SUV’s and motorcycles to RV’s, Fifth Wheels, luxury automobiles and boats. Through our various contracts, we also service specialty vehicles, like ambulances, fire trucks, mobile command centers and armored trucks.
+
+At Auto Pros Mobile Detailing, we believe we can always improve which is why we strive to offer you the very latest in auto detailing technology, including top-of-the-line, commercial grade orbital and rotary buffers, vapor steaming, carpet extractors and equipment for headlight restoration. Tampa area residents don’t have to settle for a detailer that uses just an old cheap brush, soap and water to clean their carpets or scrub their headliners. If a detailer hasn’t changed the way they do things in ten years, then they are not getting your car as clean as it can be.
+
+Chris Showalter, the owner and operator of Auto Pros, is one of the few detailers in the state of Florida, and the only detailer in the Tampa area who is certified by the International Detailers Association. He is not content to just read about the most up-to-date technology; he studies it, learns to use it and then offers it to his customers for a world class detail.  Auto Pros well-equipped trucks get the job done right the first time, every time. Unfortunately, not every stain or paint job can be fixed by a thorough detail. If you have a stain or a paint job that we can’t correct, we let you know that up front. We believe in under promising and over delivering.
+
+As a locally owned and operated business, we are a full service, self-contained, licensed and insured mobile detailer in Plant City. There is never a need to worry about water or electricity, because we carry our own water tanks and generators. We just need space in order to detail your vehicle. Call 813-778-3544 or click to make an appointment today. We proudly service all of Hillsborough County, and parts of South East Pasco County and South Polk County, including the following areas: Tampa, Brandon, Plant City, Lakeland, New Tampa, Riverview, Seffner, Valrico, Lutz, Wesley Chappel, and Zephyrhills.
