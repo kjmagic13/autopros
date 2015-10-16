@@ -6,9 +6,9 @@
 // @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic);
 // @import url(https://fonts.googleapis.com/css?family=Lustria);
 
-@import "bootswatch/autopros/variables";
+@import "bootswatch/yeti/variables";
 @import "bootstrap";
-@import "bootswatch/autopros/bootswatch";
+@import "bootswatch/yeti/bootswatch";
 
 .serif { font-family: $font-family-serif; }
 
@@ -23,3 +23,24 @@
 @media (max-width: 767px) { .col-sm-20 { width: 100%; } }
 @media (max-width: 991px) { .col-md-20 { width: 100%; } }
 @media (max-width: 1199px) { .col-lg-20 { width: 100%; } }
+
+#jumbo-main {
+
+	color: #fff;
+	text-shadow: 2px 2px #000;
+
+	margin-top: -27px;
+
+	background-repeat: no-repeat;
+	background-position: center center;
+	// background-attachment: fixed;
+	background-size: cover;
+
+
+	// @media (max-width: 992px) {
+		// background-attachment: initial;
+		// background-size: cover;
+	// }
+
+	background-image: url('http://cache4.asset-cache.net/xc/503914063.jpg?v=2&c=IWSAsset&k=2&d=1sd4B7vw-P7ngDTtMrnuE_pL9vJUs-bS_omoMI9Cc36w_6HepavxEDCh_70jv6uE0');
+}
