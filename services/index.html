@@ -1,0 +1,92 @@
+---
+layout: page
+title: Services
+permalink: /services/
+---
+
+<p class="lead">
+	We detail cars, trucks, luxury & sport vehicles, motorcycles, SUV’s, RV’s, 5th wheels, watercraft, trailers and fleet vehicles.
+</p>
+
+<div class="row">
+
+	{% for service in site.categories.services reversed limit:5 %}
+	<div class="col-md-20">
+		<div class="panel panel-default">
+			<header class="panel-heading">
+				<h4 class="panel-title text-center">{{ service.title }}</h4>
+			</header>
+			<div class="panel-body">
+				<h3 class="text-center text-muted">
+					${{ service.price }}
+				</h3>
+			</div>
+
+			<table class="table table-condensed text-center small">
+				{% for item in service.items limit:4 %}
+				<tr><td>
+					{{item.name}}
+				</td></tr>
+				{% endfor %}
+				<tr><td class="text-danger">And Much More!</td></tr>
+			</table>
+
+			<footer class="panel-footer">
+				<a href="{{ service.permalink | prepend: site.baseurl }}" data-toggle="modal" data-target="#servicesModal" class="btn btn-success btn-block">
+					Learn More
+				</a>
+			</footer>
+		</div>
+	</div>
+	{% endfor %}
+
+</div>
+
+<div class="row small">
+	<div class="col-md-3">
+		<h4>Headlight Restoration</h4>
+		<ul>
+			<li>Polish your paint to a beautiful, high gloss</li>
+			<li>Remove light scratches and scuffs</li>
+			<li>Avoid a costly paint job</li>
+			<li>We remove swirls and holograms from your paint</li>
+			<li>Featuring Menzerna polishes and sealants.</li>
+		</ul>
+	</div>
+	<div class="col-md-3">
+		<h4>Polishing</h4>
+		<ul>
+			<li>Polish your paint to a beautiful, high gloss</li>
+			<li>Remove light scratches and scuffs</li>
+			<li>Avoid a costly paint job</li>
+			<li>We remove swirls and holograms from your paint</li>
+			<li>Featuring Menzerna polishes and sealants.</li>
+		</ul>
+	</div>
+	<div class="col-md-6">
+		<h4>Additional Services</h4>
+
+		<ul>
+			<li>Engine bay cleaned & dressed – Stand alone service- $55 (Best Value- $45 with purchase of any package above)</li>
+			<li>Black trim restoration– Starting at $50 with purchase of any package above</li>
+			<li>Clay Bar treatment– Starting at $50 with purchase of any package above</li>
+			<li>Ozone odor removal– $50 with purchase of interior package</li>
+			<li>Paint sealant– $15 with purchase of any package above (up to 8 months of protection)</li>
+			<li>Anti-Fog interior window treatment– $10 with purchase of any package above</li>
+			<li>Rain repellant exterior windshield treatment– $10 with purchase of any package above</li>
+			<li>Vinyl Top Exterior UV Conditioning– $40 with purchase of any package above</li>
+		</ul>
+	</div>
+</div>
+
+<div class="well well-sm small text-muted">
+	We are one of the only mobile auto detailers in the Tampa area to offer the commercial grade, eco-friendly vapor steam cleaning system. We also proudly use Flex, one of the top polishing tools, along with the highest quality cleaning products and polishes, such as Menzerna, Maguires, Opti-coat, 3M and C.A.R Products.
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="servicesModal" tabindex="-1" role="dialog" aria-labelledby="servicesModalLabel">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content"></div>
+	</div>
+</div>

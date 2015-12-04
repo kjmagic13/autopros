@@ -2,6 +2,7 @@
 title: AutoPros Mobile Detailing
 
 tagline: "Premier Car, Auto Mobile Detailing & Wash in Tampa"
+# tagline: "Never drive a dirty vehicle again!"
 
 description: > # Is your vehicle in need of a car wash?
   Do you need some auto detailing done but you simply just don't have the time?
@@ -17,6 +18,11 @@ twitter: AutoProsDetail
 # Build settings
 markdown: kramdown
 permalink: pretty
+# permalink: /:categories/:title/
 
 paginate: 10
 paginate_path: "/news/page:num"
+
+gems:
+ - jekyll-coffeescript
+ - jekyll-paginate

@@ -7,7 +7,7 @@ layout: default
 {% endif %}
 
 {% if page.title %}
-<header class="page-header page-header-warning">
+<header class="page-header">
 	<h1 class="text-center">{{ page.title }}</h1>
 </header>
 {% endif %}
@@ -15,11 +15,3 @@ layout: default
 <article class="post-content">
 	{{ content }}
 </article>
-
-{% if page.workshop %}
-<p class="text-center">
-	<a href="{{site.baseurl}}/meetings" class="btn btn-outlined btn-primary btn-lg">
-		RSVP For A Workshop
-	</a>
-</p>
-{% endif %}

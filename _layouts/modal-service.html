@@ -10,6 +10,14 @@
 
 		{{ content }}
 
+		<ul>
+			{% for item in page.items %}
+			<li>
+				{{item.name}}
+			</li>
+			{% endfor %}
+		</ul>
+
 		<h2 class="text-center text-muted">
 			<span class="label label-success">
 				${{ page.price }}

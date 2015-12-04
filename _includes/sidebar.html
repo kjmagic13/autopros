@@ -20,22 +20,3 @@
 
 	</div>
 </aside>
-
-<aside class="panel panel-info">
-	<header class="panel-heading">
-		<h4 class="panel-title">Meetings</h4>
-	</header>
-	<div class="list-group">
-
-		{% assign meetings = site.data.meetings | reverse %}
-		{% for meeting in meetings limit: 5 %}
-		<a href="#" class="list-group-item">
-			{{ meeting.date | date: "%B %-d, %Y" }}
-			<small>
-				{{ meeting.title }}
-			</small>
-		</a>
-		{% endfor %}
-
-	</div>
-</aside>

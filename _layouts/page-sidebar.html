@@ -1,20 +1,23 @@
 ---
 layout: default
 ---
-<div class="post">
 
-	<header class="page-header">
-		<h1>{{ page.title }}</h1>
-	</header>
+{% if page.image %}
+<img src="{{ site.baseurl }}/images/{{page.image}}" class="img-responsive center-block">
+{% endif %}
 
-	<div class="row">
-		
-		<article class="col-md-8">
-			{{ content }}
-		</article>
+<header class="page-header">
+	<h1 class="text-center">{{ page.title }}</h1>
+</header>
 
-		<aside class="col-md-4">{% include {{page.sidebar}} %}</aside>
+<div class="row">
 
+	<article class="col-md-8">
+		{{ content }}
+	</article>
+
+	<div class="col-md-4">
+		{% include sidebar.html %}
 	</div>
 
 </div>

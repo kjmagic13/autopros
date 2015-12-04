@@ -1,4 +1,4 @@
-<form action="//formspree.io/kevin@kaymic.com" method="post" class="form-horizontal">
+<form action="//formspree.io/{{ site.email }}" method="post" class="form-horizontal">
 
 <input type="hidden" name="_next" value="//kaymic.com/thank-you" />
 <input type="hidden" name="_subject" value="KayMic Contact Submission" />
@@ -6,8 +6,6 @@
 
 	<div class="well">
 		<fieldset>
-			<legend>Contact Me</legend>
-
 			<div class="form-group">
 				<label for="inputName" class="col-lg-2 control-label">Name</label>
 				<div class="col-lg-10">
@@ -28,7 +26,7 @@
 			</div>
 			<div class="form-group">
 				<div class="col-lg-10 col-lg-offset-2">
-					<button type="submit" id="contactSubmit" class="btn btn-danger"><i class="fa fa-send"></i> Submit</button>
+					<button type="submit" id="contactSubmit" class="btn btn-primary"><i class="fa fa-send"></i> Submit</button>
 					<button type="reset" id="contactReset" class="btn btn-default">Reset</button>
 				</div>
 			</div>

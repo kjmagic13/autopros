@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="page-header">
+	<h1 class="text-center">
+		Portfolio<br>
+		<small>
+			{{ page.title }}
+		</small>
+	</h1>
+</div>
+
+<div class="row">
+
+	<div class="col-md-5 col-md-push-7 lead">
+		{{ content }}
+	</div>
+
+	<div class="col-md-7 col-md-pull-5">
+		<ol class="breadcrumb">
+			<li><a href="{{ '/' | prepend: site.baseurl }}">Home</a></li>
+			<li><a href="{{ '/portfolio/' | prepend: site.baseurl }}">Portfolio</a></li>
+			<li class="active">{{ page.title }}</li>
+		</ol>
+
+		<div class="row">
+			{% for item in site.categories.[page.type] %}
+			{% include portfolio-item.html %}
+			{% endfor %}
+		</div>
+
+	</div>
+
+</div>

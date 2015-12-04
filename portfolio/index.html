@@ -1,0 +1,9 @@
+---
+layout: page-sidebar
+title: Portfolio
+permalink: /portfolio/
+---
+
+{% for item in site.categories.portfolio %}
+{% include portfolio-item.html %}
+{% endfor %}

@@ -1,24 +1,23 @@
-- title: "About Us"
-  href: "/about/"
-  class: 
+- title: "Services & Prices"
+  href: "/services/"
 
 - title: "Portfolio"
   href: "/portfolio/"
-  class: 
   subs:
     - title: "Headlight Restoration"
       href: "/portfolio/headlights"
-      class:
     - title: "Luxury & Sport Vehicles"
       href: "/portfolio/luxury-sport"
-      class:
     - title: "RV & Specialty Vehicles"
       href: "/portfolio/specialty"
-      class:
     - title: "Detailing Photos"
       href: "/portfolio/detailing"
-      class:
 
-- title: "Services & Prices"
-  href: "/services/"
-  class: 
+- title: "About Us"
+  href: "/about/"
+
+- title: "FAQs"
+  href: "/faq/"
+
+- title: "Contact"
+  href: "/contact/"
