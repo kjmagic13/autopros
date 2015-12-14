@@ -1,12 +1,16 @@
 <div class="modal-header">
 	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	<h4 class="modal-title" id="defaultModalLabel">
+	<h4 class="modal-title text-center" id="defaultModalLabel">
 		{{ page.title }}
 	</h4>
 </div>
 
 <form>
 	<div class="modal-body">
+
+		<h1 class="modal-service-price">
+			${{ page.price }}
+		</h1>
 
 		{{ content }}
 
@@ -18,11 +22,11 @@
 			{% endfor %}
 		</ul>
 
-		<h2 class="text-center text-muted">
-			<span class="label label-success">
-				${{ page.price }}
-			</span>
-		</h2>
+		<p class="text-center">
+			<a class="btn btn-info btn-lg">
+				Call
+			</a>
+		</p>
 
 		<div class="form-group">
 			<label for="email">Email address</label>
