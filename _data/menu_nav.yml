@@ -1,4 +1,4 @@
-- title: "Services & Prices"
+- title: "Services & Pricing"
   href: "/services/"
 
 - title: "Portfolio"
@@ -13,11 +13,11 @@
     - title: "Detailing Photos"
       href: "/portfolio/detailing"
 
-- title: "About Us"
-  href: "/about/"
-
 - title: "FAQs"
   href: "/faq/"
+
+- title: "About Us"
+  href: "/about/"
 
 - title: "Contact"
   href: "/contact/"

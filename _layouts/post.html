@@ -15,13 +15,13 @@ layout: default
 	</header>
 
 	<ol class="breadcrumb">
-		<li><a href="/">Home</a></li>
-		<li><a href="/news">News</a></li>
+		<li><a href="{{ '/' | prepend: site.baseurl }}">Home</a></li>
+		<li><a href="{{ '/news' | prepend: site.baseurl }}">News</a></li>
 		<li class="active">{{ page.title }}</li>
 	</ol>
 
 	<div class="row">
-		
+
 		<article class="col-sm-7 col-md-8">
 			<div class="panel panel-default">
 				<div class="panel-body">
