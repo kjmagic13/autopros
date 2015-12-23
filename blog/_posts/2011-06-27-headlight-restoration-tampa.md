@@ -1,0 +1,13 @@
+---
+layout: post
+title:  Headlight Restoration - Tampa
+date:   2011-06-27
+---
+
+You see them on cars all the time…foggy, yellow headlights. Not only do they take away from the look of the vehicle, they also reduce the efficiency of the headlight itself.
+
+At one time headlights were made of glass, so clouding and discoloration were not an issue, but as technology improved, manufacturers chose plastic for the material as it is less expensive. Unfortunately, plastic is open to oxidation. Oxidation is the process that turns a cut apple brown when exposed to oxygen and the chemicals and compounds in the air. While glass is not susceptible to the effects of oxidation, plastic, like the cut apple, will make pristine headlight lens covers discolored and foggy. When your headlights are exposed to road debris, UV lights, pollutants and other elements they become oxidized, which in turn limits their effectiveness and can make for unsafe nighttime driving conditions.
+
+If you want to return headlights to back to like-new condition, you have two options:replace or restore headlights. First, you can replace the headlight lens covers. This however is an expensive option. On many models of cars, a single plastic headlight cover can cost several hundreds of dollars and you will have to replace them again if you keep the car long enough. Your second option is headlight restoration. Several methods exist for restoring headlights. One process requires the use of different grits of sandpaper and a rubbing compound. Others use kits you can buy from an auto-parts store and the use of a high speed electric buffer. Both of these approaches require quite a bit of your time and energy, including prepping the lens with taping it off to protect the surrounding paint.
+
+Of course, instead of doing-it-yourself, you can always hire a pro to do it for you. Auto Pro’s offers excellent andBuffPro affordable headlight restoration in Tampa. We use the absolute latest in restoration technology, the commercial grade [Buffpro](http://www.all-shine.net/). With a special system of compounds and polymer coatings, we use the BuffPro to restore headlights to crystal clarity. What’s more, there is never any risk to the surrounding paint or metal as with methods that involve the use of sandpaper. For far less than you could replace one headlight, Auto Pro’s can restore both headlights. And remember, since we are mobile detailing Tampa based company, we come to you. There is no need for you to sit around at a body repair shop, wasting your time while they take their time in getting to your vehicle. Improve the quality of your nighttime driving and the look of your car by letting Auto Pro’s restore your headlights.
