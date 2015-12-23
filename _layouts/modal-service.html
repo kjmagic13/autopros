@@ -37,10 +37,13 @@
 			<label for="phone">Phone number</label>
 			<input type="tel" class="form-control" id="phone" placeholder="Telephone">
 		</div>
-		<div class="checkbox">
-			<label>
-				<input type="checkbox"> Check me out
-			</label>
+		<div class="form-group">
+			<label for="service">Service</label>
+			<select name="service" class="form-control">
+				{% for service in site.categories.services reversed %}
+				<option value="{{ service.title }}" {% if page.title == service.title %}selected{%endif%}>{{ service.title }}</option>
+				{% endfor %}
+			</select>
 		</div>
 
 	</div>
