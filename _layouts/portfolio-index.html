@@ -13,8 +13,8 @@ layout: default
 
 <div class="row">
 
-	<div class="col-md-5 col-md-push-7 lead">
-		{{ content }}
+	<div class="col-md-5 col-md-push-7">
+		{% include sidebar-portfolio.html %}
 	</div>
 
 	<div class="col-md-7 col-md-pull-5">
@@ -23,6 +23,8 @@ layout: default
 			<li><a href="{{ '/portfolio/' | prepend: site.baseurl }}">Portfolio</a></li>
 			<li class="active">{{ page.title }}</li>
 		</ol>
+
+		{{ content }}
 
 		<div class="row">
 			{% for item in site.categories.[page.type] %}

@@ -1,5 +1,5 @@
 ---
-layout: category-index
+layout: portfolio-index
 title: RV & Specialty Vehicles
 type: specialty
 ---

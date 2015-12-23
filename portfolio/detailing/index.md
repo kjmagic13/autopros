@@ -1,5 +1,5 @@
 ---
-layout: category-index
+layout: portfolio-index
 title: Detailing
 type: detailing
 ---
