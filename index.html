@@ -2,10 +2,26 @@
 layout: no-container
 ---
 
-<div id="jumbo-main" class="jumbotron">
-	<div class="container">
-		<h1 class="text-center">Tampa's Premiere Car Detailer</h1>
+<div id="jumbo-main" class="">
+
+	<div class="embed-responsive-jumbo">
+
+		<div class="container">
+			<div class="jumbotron" style="background:none; font-size: 2em;">
+
+				<h2 class="text-center">
+					{{ site.title }}<br>
+					<small>
+						Tampa's Premiere Car Detailer
+					</small>
+				</h2>
+			</div>
+		</div>
+
+		<video src="http://ak4.picdn.net/shutterstock/videos/12699443/preview/stock-footage-water-dripping-from-the-car-after-washing-with-water-car-water-flows-out-and-wash-the-wheels-and.mp4" autoplay loop muted></video>
 	</div>
+
+
 </div>
 
 <div class="container">
@@ -15,19 +31,6 @@ layout: no-container
 			<p class="lead">
 				AutoPros Mobile Detailing Tampa, Brandon, Lakeland – When you need your car detailed right, <strong><a href="tel:8137783544">call the pros – AutoPros</a></strong>
 			</p>
-
-			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
-					<div class="panel panel-info">
-						<div class="panel-body">
-							<div class="embed-responsive embed-responsive-16by9">
-								<iframe class="embed-responsive-item" src="http://ak8.picdn.net/shutterstock/videos/3120673/preview/stock-footage-grey-estate-car-washed-by-hand-using-a-water-jet-wash.mp4"></iframe>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
 			<p>
 				Life is hectic, but we can help! Between work, school and everyone's busy schedules, you don't have time to simply wash your car, let alone do a full auto detail. Let AutoPros Mobile Detailing do it for you from the convenience of your home or office.
 			</p>
@@ -77,6 +80,9 @@ layout: no-container
 
 		</div>
 		<div class="col-sm-4 col-sm-pull-8">
+
+			{% include sidebar-faqs.html %}
+
 			<p>
 				<img src="http://www.autoprosmobile.com/wp-content/uploads/2011/05/homepic1.jpg" class="img-responsive img-thumbnail center-block">
 			</p>

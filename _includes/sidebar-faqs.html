@@ -1,0 +1,15 @@
+<div class="panel panel-default">
+
+	<ul class="list-group">
+		{% for faq in site.data.faqs limit: 3 %}
+		<a href="{{ '/faqs/#faq' }}{{ forloop.index }}" class="list-group-item">
+			{{ faq.question }}
+		</a>
+		{% endfor %}
+	</ul>
+
+	<footer class="panel-footer text-center small">
+		<a href="{{ '/faqs/' | prepend: site.baseurl }}">More FAQs</a>
+	</footer>
+
+</div>
