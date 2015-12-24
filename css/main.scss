@@ -52,13 +52,11 @@
 }
 
 .modal-service-price {
-	background: $brand-success;
+	background: $brand-info;
 	color: #fff;
 	text-align: center;
-	padding: 0px 10px 10px 10px;
-	// margin-left: -20px;
-	// margin-right: -20px;
-	margin: -20px -20px 20px;
+	margin-top: 0;
+	padding: 0px 10px 20px;
 
 	small {
 		color: #ddd;

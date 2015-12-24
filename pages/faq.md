@@ -1,6 +1,6 @@
 ---
 layout: page-sidebar
-title: FAQs
+title: Frequently Asked Questions
 permalink: /faqs/
 ---
 

@@ -12,7 +12,7 @@ permalink: /services/
 
 	{% for service in site.categories.services reversed limit:5 %}
 	<div class="col-md-20">
-		<div class="panel panel-info">
+		<div class="panel panel-primary">
 			<header class="panel-heading">
 				<h4 class="panel-title text-center">{{ service.title }}</h4>
 			</header>
@@ -32,7 +32,7 @@ permalink: /services/
 			</table>
 
 			<footer class="panel-footer">
-				<a href="{{ service.permalink | prepend: site.baseurl }}" data-toggle="modal" data-target="#servicesModal" class="btn btn-success btn-block">
+				<a href="{{ service.permalink | prepend: site.baseurl }}" data-toggle="modal" data-target="#servicesModal" class="btn btn-info btn-block">
 					Learn More
 				</a>
 			</footer>
