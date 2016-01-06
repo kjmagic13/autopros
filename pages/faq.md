@@ -4,7 +4,7 @@ title: Frequently Asked Questions
 permalink: /faqs/
 ---
 
-{% for faq in site.data.faqs %} * [{{ faq.question }}]({{ '/faqs/#faq' }}{{ forloop.index }})
+{% for faq in site.data.faqs %} * [{{ faq.question }}]({{ '/faqs/#faq' | prepend: site.baseurl }}{{ forloop.index }})
 {% endfor %}
 
 {% for faq in site.data.faqs %}
