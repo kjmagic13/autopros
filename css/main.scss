@@ -37,18 +37,18 @@
 
 	padding: none;
 
-	background-repeat: no-repeat;
-	background-position: center center;
-	// background-attachment: fixed;
-	background-size: cover;
+	font-size: 2em;
 
+	@media (max-width: $screen-xs-max) {
+		background-image: url('/images/jumbo-bg.png');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		// background-attachment: fixed;
+	}
 
-	// @media (max-width: 992px) {
-	// background-attachment: initial;
-	// background-size: cover;
-	// }
+	.jumbotron { background: none; }
 
-	// background-image: url('http://cache4.asset-cache.net/xc/503914063.jpg?v=2&c=IWSAsset&k=2&d=1sd4B7vw-P7ngDTtMrnuE_pL9vJUs-bS_omoMI9Cc36w_6HepavxEDCh_70jv6uE0');
 }
 
 .modal-service-price {
@@ -79,5 +79,5 @@
 	top: 50%;
 	left: 50%;
 	transform: translateX(-50%) translateY(-50%);
-	z-index: -999;
+	z-index: -1;
 }

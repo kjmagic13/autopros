@@ -3,12 +3,9 @@ layout: no-container
 ---
 
 <div id="jumbo-main" class="">
-
 	<div class="embed-responsive-jumbo">
-
 		<div class="container">
-			<div class="jumbotron" style="background:none; font-size: 2em;">
-
+			<div class="jumbotron">
 				<h2 class="text-center">
 					{{ site.title }}<br>
 					<small>
@@ -17,11 +14,8 @@ layout: no-container
 				</h2>
 			</div>
 		</div>
-
-		<video src="http://ak4.picdn.net/shutterstock/videos/12699443/preview/stock-footage-water-dripping-from-the-car-after-washing-with-water-car-water-flows-out-and-wash-the-wheels-and.mp4" autoplay loop muted></video>
+		<video class="hidden-xs" src="{{ 'videos/jumbo-bg.mp4' | prepend: site.baseurl }}" autoplay loop muted></video>
 	</div>
-
-
 </div>
 
 <div class="container">
