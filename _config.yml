@@ -15,6 +15,10 @@ email: info@autoprosmobile.com
 facebook: AutoProsMobile
 twitter: AutoProsDetail
 
+collections:
+   services:
+      output: true
+
 # Build settings
 markdown: kramdown
 permalink: pretty
