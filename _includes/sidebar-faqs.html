@@ -2,7 +2,7 @@
 
 	<ul class="list-group">
 		{% for faq in site.data.faqs limit: 3 %}
-		<a href="{{ '/faqs/#faq' }}{{ forloop.index }}" class="list-group-item">
+		<a href="{{ '/faqs/#faq' | prepend: site.baseurl }}{{ forloop.index }}" class="list-group-item">
 			{{ faq.question }}
 		</a>
 		{% endfor %}
