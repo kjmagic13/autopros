@@ -6,10 +6,10 @@
 
 		<div class="row text-center">
 			<div class="col-sm-6">
-				<a href="#" target="">
+				<a href="https://www.facebook.com/AutoProsMobile/" target="_blank">
 					<i class="fa fa-facebook-square fa-3x"></i>
 				</a>
-				<a href="#" target="">
+				<a href="https://twitter.com/AutoProsDetail" target="_blank">
 					<i class="fa fa-twitter-square fa-3x"></i>
 				</a>
 			</div>
@@ -26,6 +26,120 @@
 	</div>
 
 </footer>
+
+<!-- Request Detail Modal -->
+<div class="modal fade" id="requestModal" tabindex="-1" role="dialog" aria-labelledby="requestModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title text-center" id="requestModalLabel">Call or Request an Appointment</h4>
+			</div>
+			<div class="modal-body">
+				<form class="" action="/thanks" method="post">
+
+					<div class="row">
+						<div class="col-xs-6">
+							<p>
+								<a href="tel:8137783544" class="btn btn-default btn-block btn-lg">
+									<i class="fa fa-fw fa-phone fa-4x"></i>
+								</a>
+							</p>
+						</div>
+						<div class="col-xs-6">
+							<p>
+								<a href="#" class="btn btn-default btn-block btn-lg active">
+									<i class="fa fa-fw fa-calendar fa-4x"></i>
+								</a>
+							</div>
+						</p>
+					</div>
+
+					<div class="form-group form-group-lg">
+
+						<div class="input-group input-group-lg">
+							<select name="service" class="form-control">
+							{% for service in site.services %}
+							<option>
+								{{ service.title }} -
+								${{ service.price }}
+							</option>
+							{% endfor %}
+						</select>
+							<!-- <input type="text" class="form-control" placeholder="Search for..."> -->
+							<span class="input-group-btn">
+								<a href="{{ '/services' | prepend: site.baseurl }}" class="btn btn-info">
+									<i class="fa fa-fw fa-info-circle"></i>
+								</a>
+							</span>
+						</div><!-- /input-group -->
+
+					</div>
+
+					<div class="form-group">
+						<input type="date" name="date" class="form-control" />
+					</div>
+
+					<div class="form-group">
+						<div class="row">
+							<div class="col-xs-4">
+								<select name="hour" class="form-control">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+									<option>6</option>
+									<option>7</option>
+									<option>8</option>
+									<option>9</option>
+									<option>10</option>
+									<option>11</option>
+									<option>12</option>
+								</select>
+								<!-- <input type="number" name="hour" class="form-control" placeholder="Hour" min="1" max="12" /> -->
+							</div>
+							<div class="col-xs-4">
+								<select name="min" class="form-control">
+									<option>00</option>
+									<option>30</option>
+								</select>
+								<!-- <input type="number" name="minute" class="form-control" placeholder="Min." min="0" max="59" /> -->
+							</div>
+							<div class="col-xs-4">
+								<select name="ampm" class="form-control">
+									<option>AM</option>
+									<option>PM</option>
+								</select>
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="row">
+							<div class="col-sm-6">
+								<p>
+									<input type="text" name="name" class="form-control" placeholder="Name" />
+								</p>
+							</div>
+							<div class="col-sm-6">
+								<p>
+									<input type="email" name="email" class="form-control" placeholder="Email" />
+								</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+					<input type="submit" class="btn btn-primary" value="Request this Time" />
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

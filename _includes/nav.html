@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse">
+<nav id="topNav" class="navbar navbar-inverse navbar-fixed-top-sm">
 	<div class="container">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
@@ -7,6 +7,10 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
+			</button>
+			<button type="button" class="pull-right btn btn-info hidden-md hidden-lg" id="navbarBtnSm" data-toggle="modal" data-target="#requestModal">
+				<span class="sr-only">Request a Detail</span>
+				<i class="fa fa-fw fa-calendar"></i>
 			</button>
 			<a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
 		</div>
@@ -43,7 +47,16 @@
 
 			</ul>
 
-			<!-- <ul class="nav navbar-nav navbar-right"></ul> -->
+			<ul class="nav navbar-nav navbar-right" >
+				<a href="#" id="navbarBtnMd" class="btn btn-sm btn-info navbar-btn hidden-sm hidden-xs" data-toggle="modal" data-target="#requestModal">
+					Request a Detail <i class="fa fa-fw fa-calendar"></i>
+				</a>
+				<li>
+					<a href="#" class="hidden-md hidden-lg" data-toggle="modal" data-target="#requestModal">
+						<i class="fa fa-fw fa-calendar"></i> Request a Detail
+					</a>
+				</li>
+			</ul>
 
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container-fluid -->
